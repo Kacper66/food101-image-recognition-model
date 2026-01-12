@@ -7,17 +7,10 @@
 ## Directory Structure
 
 ```
-Trenowanie/
 ├─ model/
-│  ├─ best_model.h5
 │  ├─ converter.py
-│  ├─ history_finetune.json
-│  ├─ training_results.png
-│  ├─ converted/
-│  │  ├─ converted_model.tflite
-├─ dataset/
+│  ├─ test.py
 ├─ GPUtrening.py
-├─ instrukcje.txt
 ├─ requirements.txt
 ├─ sortowanie.py
 ```
@@ -28,7 +21,7 @@ Download the dataset from Kaggle:
 
 https://www.kaggle.com/datasets/dansbecker/food-101
 
-Extract the dataset into the `Trenowanie` directory.
+Extract the dataset into the `food101-image` directory.
 
 ## 2. Create a Virtual Environment
 
